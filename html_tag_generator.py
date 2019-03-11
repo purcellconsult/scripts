@@ -139,8 +139,5 @@ class html_generator:
 if __name__ == '__main__':
     h = html_generator()
     html_tag = input("Enter html tag ")
-<<<<<<< HEAD
     print(h.generate_html_tag(html_tag))
-=======
-    print(h.generate_html_tag(html_tag))
->>>>>>> 22c8ab481f0a704eb79158faffe3875b32fd92d5
+
