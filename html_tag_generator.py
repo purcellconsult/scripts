@@ -12,7 +12,7 @@
 class html_generator:
     """ A simple class that generates html tags. """
 
-    def geerate_html_tag(self, input):
+    def generate_html_tag(self, input):
 
         tags = {
 
@@ -139,4 +139,4 @@ class html_generator:
 if __name__ == '__main__':
     h = html_generator()
     html_tag = input("Enter html tag ")
-    print(h.geerate_html_tag(html_tag))
+    print(h.generate_html_tag(html_tag))
